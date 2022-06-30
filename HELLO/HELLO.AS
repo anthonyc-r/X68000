@@ -1,0 +1,10 @@
+
+
+
+	PEA	MSG
+	.DC.W	$FF09
+	ADDQ.L	#4,SP
+	.DC.W	$FF00
+MSG:
+	.DC.B	'HELLO',$0D,$0A,0
+
